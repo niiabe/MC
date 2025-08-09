@@ -14,7 +14,8 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background: #000;
+    background: #f7f7f7;
+    overflow: hidden;
     color: black;
 }
 
@@ -31,7 +32,7 @@
 
 .jumbotron-overlay {
     background: rgba(10, 51, 18, 0.596); /* Translucent black */
-    width: 100%;
+     width: 100%;
     min-height: 100vh;
     padding: 0;
     display: flex;
@@ -66,26 +67,25 @@
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid" style="background-image: url(resources/img/20.jpg); height: 100%; width: 100%; background-size: cover; background-position: center;">
+    <div class="jumbotron jumbotron-fluid" style="background-image: url(resources/img/20.jpg); min-height: 100vh; width: 100%; background-size: cover; background-position: center;">
         <div class="container text-left  text-md-left">
             <header>
                 <div class="row justify-content-between">
                     <div class="col-2">
 
                     </div>
-                    <div class="col-6 align-self-center text-right">
-                        <a href="http://support.zigloi.com/" class="text-white lead">Click For Support</a>
-                    </div>
+                    
                 </div>
             </header>
             <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
-                class="display-3 text-white font-weight-bold my-5">
-                Welcome to Zigloi<br>
-                Micro Banking
+                class="display-1 text-white my-5 mb-0">
+                Welcome to mCelerium
             </h1>
+            <p class=" text-bold lead lg:ml-20 mt-0" style="font-size: 2rem;">Banking, Finance, & Microfinance Solutions</p>  
+                          
             <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
                 class="lead text-white my-4">
-                Your Number 1 Micro Banking Platform
+                Your Number 1 Micro Banking Platform 
                 <br>
                 <br>
                 Contact us:<br>
@@ -94,10 +94,13 @@
                 &#11049;&nbsp;+233575908638<br>
                 &#11049;&nbsp;+233263944964<br><br>
                 Email:&nbsp;<b>info@zigloi.com</b>
-            </p>
+            </p>            
+        </div>
+        <div class="container text-center">
             <a href="http://zigloilimited.com/" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000"
                 data-aos-once="true" class="btn text-center my-4 font-weight-bold atlas-cta cta-green">Discover More On Our
-                Website</a>
+                Website
+            </a> 
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
